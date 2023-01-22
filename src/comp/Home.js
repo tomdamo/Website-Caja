@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Images from './images';
+import {Images, homeImages} from './images';
 import {
   Carousel,
   CarouselItem,
@@ -8,21 +8,23 @@ import {
   CarouselCaption,
 } from 'reactstrap';
 
+import './Home.css'
+
 const items = [
   {
-    src: Images.home1,
+    src: homeImages.home1,
     altText: 'Slide 1',
     caption: 'Slide 1',
     key: 1,
   },
   {
-    src: Images.home2,
+    src: homeImages.home2,
     altText: 'Slide 2',
     caption: 'Slide 2',
     key: 2,
   },
   {
-    src: Images.home3,
+    src: homeImages.home3,
     altText: 'Slide 3',
     caption: 'Slide 3',
     key: 3,
@@ -58,16 +60,17 @@ function Home(args) {
         key={item.src}
       >
         <img src={item.src} alt={item.altText} />
-        <CarouselCaption
+        {/* <CarouselCaption
           captionText={item.caption}
           captionHeader={item.caption}
-        />
+        /> */}
       </CarouselItem>
     );
   });
 
   return (
     <>
+    <div className='carousel-container'>
     <Carousel
       activeIndex={activeIndex}
       next={next}
@@ -91,6 +94,7 @@ function Home(args) {
         onClickHandler={next}
       />
     </Carousel>
+    </div>
 
     </>
   );

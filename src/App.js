@@ -14,28 +14,10 @@ import { Link } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom';
 
 function App() {
+  document.title = "Caja Boogers"
   return (
     <>
     <BrowserRouter>
-    {/* <nav>
-      <ul>
-        <li>
-          <Link to={"/"}>Home</Link>
-        </li>
-        <li>
-          <Link to={"/Contact"}>Contact</Link>
-        </li>
-        <li>
-          <Link to={"/About"}>Contact</Link>
-        </li>
-        <li>
-          <Link to={"/Cv"}>Contact</Link>
-        </li>
-        <li>
-          <Link to={"/DrieTwintig"}>Contact</Link>
-        </li>
-      </ul>
-    </nav> */}
     <Layout/>
           <Routes>
               <Route path="/" element={<Home />}/>
