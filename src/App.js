@@ -18,7 +18,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
-    <Layout/>
+    <Layout>
           <Routes>
               <Route path="/" element={<Home />}/>
               <Route path="Contact" element={<Contact />}/>
@@ -28,6 +28,7 @@ function App() {
               <Route path="TweeTwintig" element={<TweeTwintig />} />
               <Route path="*" element={<NoPage />} />
           </Routes>
+          </Layout>
     </BrowserRouter>
           </>
   );

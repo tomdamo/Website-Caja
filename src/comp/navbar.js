@@ -13,7 +13,7 @@ import {Link} from 'react-router-dom'
 
 function Navi() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="light" expand="lg" sticky="top">
       <Container>
         <Navbar.Brand href="/">Caja Boogers</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

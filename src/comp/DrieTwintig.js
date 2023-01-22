@@ -44,8 +44,7 @@ export default images;
 export function DrieTwintig(args) {
   return (
     <>
-    <h1>2023 gallery</h1>
-    <h2>Working on it!</h2>
+    <h1>2023</h1>
   
     </>
   );

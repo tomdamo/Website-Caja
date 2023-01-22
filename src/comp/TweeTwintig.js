@@ -13,6 +13,7 @@ const images = [
 export function TweeTwintig() {
   return (
     <>
+    <h1>2022 </h1>
   <ImageGallery images={images} />
     </>
   )

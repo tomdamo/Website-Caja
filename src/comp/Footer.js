@@ -5,6 +5,7 @@ function Footer() {
     <>
         <footer>
       <p>Copyright © 2023 My Website</p>
+      <h1>HELLOOOO</h1>
     </footer>
     </>
   )
