@@ -17,7 +17,6 @@ function Navi() {
                 2022
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/About">About</Nav.Link>
             <Nav.Link href="/Contact">Contact</Nav.Link>
             <Nav.Link href="/Cv">CV</Nav.Link>
             <Nav.Link href="https://www.instagram.com/cajaboogers/" target="_blank">Instagram</Nav.Link>

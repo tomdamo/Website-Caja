@@ -3,7 +3,6 @@ import {CarouselComp} from './Carousel'
 
 import './Home.css'
 import { Container } from 'react-bootstrap'
-import Contact from './Contact';
 import { About } from './About';
 
 function Home(args) {
@@ -18,7 +17,6 @@ function Home(args) {
         <div className="hero">
           <Container>
             <About/>
-          <Contact/>
           </Container>
       </div>
       </div>

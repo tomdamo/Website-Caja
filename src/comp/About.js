@@ -4,7 +4,6 @@ export function About() {
   return (
 <>
 <div className='container'>
-<h3 className="display-3">About</h3>
 <p className="lead">
 Through clever interventions, Caja Boogers manages to influence the viewer's gaze. Take, for example, the canvases close together, which suggests the opening of an elevator door. Boogers did not paint the doors but let the idea of the doors arise in this way. This characterizes his way of working, in which he constantly explores the tension between various materials and layers in a painting. <br></br> <br></br>
 
