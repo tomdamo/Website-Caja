@@ -6,7 +6,11 @@ export function Layout(props) {
   return (
     <>
     <div className={props.class}>
-<Navi/>
+<Navi
+  scrollToRef={props.scrollToRef}
+  aboutRef={props.aboutRef}
+  contactRef={props.contactRef}
+/>
 {props.children}
 {/* <Footer/> */}
     </div>

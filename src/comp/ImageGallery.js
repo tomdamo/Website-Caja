@@ -1,45 +1,32 @@
 import React, { useState } from 'react';
-import {images} from './images';
 import './ImagesGallery.css'
-function ImageGallery() {
-    const [isFullScreen, setIsFullScreen] = useState(false);
+
+function ImageGallery({ images }) {
+  const [isFullScreen, setIsFullScreen] = useState(false);
   const [currentImage, setCurrentImage] = useState('');
-  
+
   const handleClick = (image) => {
     setIsFullScreen(true);
     setCurrentImage(image);
-  }
+  };
+
+
   return (
-      //ZONDER KLIK
-//     <div className='photo-grid'>
-//       {Object.keys(images).filter(i => i.endsWith("caption") === false).map((image) => {
-//         return (
-//           <div className='card' key={image}>
-//             <img src={images[image]} alt={image} />
-//             <figcaption>{images[image + 'caption']}</figcaption>
-//           </div>
-//         );
-//       })}
-//     </div>
-
-    //MET KLIK MAAR GEEN MODAL
-<div className='photo-grid'>
-      {Object.keys(images).filter(i => i.endsWith("caption") === false).map((image) => {
-        return (
-          <div className='card' key={image}>
-            <img src={images[image]} alt={image} onClick={() => handleClick(images[image])} />
-            <figcaption>{images[image + 'caption']}</figcaption>
+    <div className="photo-grid-container"> 
+      <div className="photo-grid"> 
+        {images.map((image, index) => (
+          <div className="card" key={index}>
+            <img src={image.src} alt={image.alt} onClick={() => handleClick(image.src)} />
+            <figcaption>{image.caption}</figcaption>
           </div>
-        );
-      })}
-      {isFullScreen && 
-        <div className="fullscreen-image">
-          <img src={currentImage} alt={currentImage} onClick={() => setIsFullScreen(false)} />
+        ))}
+      </div>
+      {isFullScreen && (
+        <div className="fullscreen-image"onClick={() => setIsFullScreen(false)}>
+          <img src={currentImage} alt={currentImage}/>
         </div>
-      }
+      )}
     </div>
-
-    //MODAL
   );
 }
 

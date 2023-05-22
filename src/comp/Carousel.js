@@ -1,36 +1,20 @@
 import React, { useState } from 'react';
-import {Images, homeImages} from './images';
+import {homeImages} from './images';
 import {
   Carousel,
   CarouselItem,
   CarouselControl,
   CarouselIndicators,
-  CarouselCaption,
 } from 'reactstrap';
 
 import './Carousel.css'
 
-const items = [
-  {
-    src: homeImages.home1,
-    altText: 'Slide 1',
-    caption: 'Slide 1',
-    key: 1,
-  },
-  {
-    src: homeImages.home2,
-    altText: 'Slide 2',
-    caption: 'Slide 2',
-    key: 2,
-  },
-  {
-    src: homeImages.home3,
-    altText: 'Slide 3',
-    caption: 'Slide 3',
-    key: 3,
-  },
-];
-
+const items = homeImages.map((image, index) => ({
+  src: image.src,
+  altText: image.alt,
+  caption: `Slide ${index + 1}`,
+  key: index,
+}));
 export function CarouselComp(args) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [animating, setAnimating] = useState(false);
@@ -70,7 +54,8 @@ export function CarouselComp(args) {
 
   return (
     <>
-<div className='title'><h1>Caja Boogers</h1></div>
+<div className='title'><h1>
+</h1></div>
     <div className='carousel-container'>
     <Carousel
       activeIndex={activeIndex}

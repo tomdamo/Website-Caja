@@ -1,24 +1,27 @@
-import React, { useState } from 'react';
-import {Images, homeImages} from './images';
+import React from 'react';
 import {CarouselComp} from './Carousel'
 
-import { TweeTwintig } from './TweeTwintig';
 import './Home.css'
+import { Container } from 'react-bootstrap'
+import Contact from './Contact';
+import { About } from './About';
 
 function Home(args) {
   
-      
-
   return (
     <>
-    <div className='grid-container'>
-    <div className='carousel'>
-    <CarouselComp/>
-    </div>
-    {/* <div className='gallery'>
-      <TweeTwintig/>
-</div> */}
-</div>
+    <h1 className="Title">Caja Boogers</h1>
+    <div className="grid-container">
+        <div className="carousel">
+          <CarouselComp />
+        </div>
+        <div className="hero">
+          <Container>
+            <About/>
+          <Contact/>
+          </Container>
+      </div>
+      </div>
     </>
   );
 }

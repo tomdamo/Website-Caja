@@ -1,3 +1,65 @@
-.grid{
-    text-align: center;
+.cv-container {
+  /* display: flex;
+  flex-direction: column;
+  align-items: left; */
+  text-align: center;
+}
+
+.exhibition {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+}
+.exhibition-entry {
+  display: flexbox;
+  align-items: flex-start;
+  justify-content: center;
+  margin-bottom: 10px; /* Optional margin between entries */
+}
+.job{
+  text-align: left;
+}
+
+.cv {
+  display: flex;
+  align-items: flex-start;
+  margin-left: 10px;
+  text-align: left; 
+}
+
+
+.year {
+  flex: 0 0 100px;
+}
+.cv_end{
+  align-items: flex-start;
+  margin-left: 10px;
+  text-align: left; 
+  margin-bottom: 100px;
+}
+
+.display-4_cv {
+  margin-right: 325px;
+  margin-top: 20px;
+}
+.display-4_mid {
+  margin-right: 325px;
+  margin-top: 20px;
+}
+.display-4_end {
+  margin-right: 380px;
+  margin-top: 20px;
+}
+@media (max-width: 767px) {
+  .display-4_cv {
+    margin-right: 275px;
+  }
+  .display-4_mid {
+    margin-right: 275px;
+  }
+  .display-4_end {
+    margin-right: 325px;
+  }
 }
