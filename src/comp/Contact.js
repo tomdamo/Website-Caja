@@ -6,7 +6,7 @@ export function Contact() {
 <>
     <div className='container'>
           <p className="lead">
-      Send me an email <a href="mailto:cajaboogers@gmail.com">contact@cajaboogers.com</a> <br></br>
+      Send me an email <a href="mailto:contact@cajaboogers.com">contact@cajaboogers.com</a> <br></br>
       Message me on <a href='https://www.instagram.com/cajaboogers/' target="_blank" rel="noreferrer">Instagram</a>
            </p>
     </div>
