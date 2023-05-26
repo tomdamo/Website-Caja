@@ -11,62 +11,73 @@
 .gallery {
   grid-row: 2 / 3;
   margin-top: -20px;
-
 }
-  @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
-  
-  .gallery {
-    animation-name: fadeIn;
-    animation-duration: 2s;
-    animation-timing-function: ease-in;
+  to {
+    opacity: 1;
+  }
+}
+
+.gallery {
+  animation-name: fadeIn;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+}
+.hero {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px; /* Remove margin at the bottom */
+}
+
+.display-3 {
+  margin-top: 10px;
+  font-size: 2rem; /* Adjust the title font size */
+}
+.display-4 {
+  margin-top: 10px;
+  font-size: 1.5rem; /* Adjust the title font size */
+}
+
+.lead {
+  font-size: 1.5rem;
+  margin-bottom: 100px;
+}
+.Title {
+  text-align: center;
+}
+.contact-div {
+  margin-top: 150px;
+}
+@media (max-width: 767px) {
+  .lead {
+    font-size: 1rem;
+    margin-bottom: 100px;
   }
   .hero {
-    height: 80vh; 
+    height: 73vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px; /* Remove margin at the bottom */
+    padding-bottom: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  .lead {
+    font-size: 1rem;
+    margin-bottom: 100px;
+  }
+  .hero {
+    height: 87vh;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 20px; /* Remove margin at the bottom */
   }
-  
-  .display-3 {
-    margin-top: 10px;
-    font-size: 2rem; /* Adjust the title font size */
-  }
-  .display-4 {
-    margin-top: 10px;
-    font-size: 1.5rem; /* Adjust the title font size */
-  }
-  
-  .lead {
-    font-size: 1.5rem; 
-    margin-bottom: 100px;
-  }
-  .Title{
-    text-align: center;
-  }
-  .contact-div {
-    margin-top: 150px;
-    
-  }
-  @media (max-width: 767px) {
-    .carousel {
-      height: auto;
-      width: auto;
-    }
-    .lead {
-      font-size: 1rem; 
-      margin-bottom: 100px;
-    }
-    .hero {
-      height: 73vh; 
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 100px; /* Remove margin at the bottom */
-      padding-bottom: 200px;
-    }
-    
-  }
+}

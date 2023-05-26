@@ -4,13 +4,16 @@
   align-items: left; */
   text-align: center;
 }
+.cv-top {
+  display: flex;
+  justify-content: center;
+}
 
 .exhibition {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-
 }
 .exhibition-entry {
   display: flexbox;
@@ -18,7 +21,7 @@
   justify-content: center;
   margin-bottom: 10px; /* Optional margin between entries */
 }
-.job{
+.job {
   text-align: left;
 }
 
@@ -26,17 +29,16 @@
   display: flex;
   align-items: flex-start;
   margin-left: 10px;
-  text-align: left; 
+  text-align: left;
 }
-
 
 .year {
   flex: 0 0 100px;
 }
-.cv_end{
+.cv_end {
   align-items: flex-start;
   margin-left: 10px;
-  text-align: left; 
+  text-align: left;
   margin-bottom: 100px;
 }
 
@@ -52,6 +54,16 @@
   margin-right: 380px;
   margin-top: 20px;
 }
+
+.cv-image {
+  margin-top: 60px;
+  margin-left: 75px;
+}
+
+.cajaImage {
+  max-width: 400px;
+  height: auto;
+}
 @media (max-width: 767px) {
   .display-4_cv {
     margin-right: 275px;
@@ -61,5 +73,27 @@
   }
   .display-4_end {
     margin-right: 325px;
+  }
+
+  .cv_end {
+    align-items: flex-start;
+    margin-left: 10px;
+    text-align: left;
+    margin-bottom: 1px;
+  }
+  .cv-top {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cv-content {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+
+  .cajaImage {
+    margin-right: 70px;
+    width: 50vh;
+    margin-bottom: 20px;
   }
 }
