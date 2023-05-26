@@ -35,9 +35,12 @@
 .year {
   flex: 0 0 100px;
 }
+.year-ed {
+  flex: 0 0 100px;
+}
 .cv_end {
   align-items: flex-start;
-  margin-left: 10px;
+  margin-right: 52px;
   text-align: left;
   margin-bottom: 100px;
 }
@@ -74,10 +77,14 @@
   .display-4_end {
     margin-right: 325px;
   }
-
-  .cv_end {
+  .cv_mid {
     align-items: flex-start;
     margin-left: 10px;
+    text-align: left;
+  }
+  .cv_end {
+    align-items: flex-start;
+    margin-right: 55px;
     text-align: left;
     margin-bottom: 1px;
   }
@@ -92,8 +99,11 @@
   }
 
   .cajaImage {
-    margin-right: 70px;
+    margin-right: 75px;
     width: 50vh;
     margin-bottom: 20px;
+  }
+  .cv-container {
+    overflow-x: hidden;
   }
 }

@@ -99,10 +99,19 @@ export function Cv() {
               </div>
 
               <h4 className="display-4_mid">Education</h4>
-              <div className="cv">
-                2019-2023 BA Fine Art Hogeschool voor de Kunsten Utrecht
-                <br></br>
-                2022 Internship Pennie Key Rijksakademie
+              <div className="education">
+                <div className="cv">
+                  <div className="year-ed">2019-2023</div>
+                  <div className="job">
+                    <p>BA Fine Art Hogeschool voor de Kunsten Utrecht</p>
+                  </div>
+                </div>
+                <div className="cv">
+                  <div className="year-ed">2022</div>
+                  <div className="job">
+                    <p>Internship Pennie Key Rijksakademie</p>
+                  </div>
+                </div>
               </div>
 
               <h4 className="display-4_end">Extra</h4>
