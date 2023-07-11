@@ -6,7 +6,7 @@
 
 figcaption {
   padding: 1rem;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
   text-align: left;
   margin-top: 10px; /* Add margin to separate from the image */
   white-space: pre-line; /* Preserve line breaks in captions */
