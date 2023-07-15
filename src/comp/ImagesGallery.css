@@ -31,6 +31,15 @@ figcaption {
   object-fit: contain;
   cursor: pointer;
 }
+.card {
+  /* ...existing styles... */
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.card.loaded {
+  opacity: 1;
+}
 
 /* New styles for larger screens */
 @media (min-width: 768px) {
