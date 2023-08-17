@@ -1,83 +1,75 @@
-export const images2022 = [
-  {
-    src: require("./img/work2022/img6.jpg"),
-    alt: "Image 6",
-    caption: "Blue Thoughts\n 2x 200 x 160cm\n oil and paste on linen\n 2022",
-  },
-  {
-    src: require("./img/work2022/img5.jpg"),
-    alt: "Image 5",
-    caption: "Pond Life\n 2x 200 x 160cm\n oil and paste on linen\n 2022",
-  },
-  {
-    src: require("./img/work2022/img4.jpg"),
-    alt: "Image 4",
-    caption: "Almost Blue \n 180 x 130cm \n oil and paste on canvas \n 2022",
-  },
-  {
-    src: require("./img/work2022/img2.jpg"),
-    alt: "Image 2",
-    caption: "Home\n 65 x 55cm\n oil and paste on canvas\n 2022",
-  },
-  {
-    src: require("./img/work2022/img7.jpg"),
-    alt: "Image 7",
-    caption: "First Step\n 40 x 35cm\n oil and paste on canvas\n 2022",
-  },
-  {
-    src: require("./img/work2022/img3.jpg"),
-    alt: "Image 3",
-    caption: "Deeper Dark\n 180 x 130cm\n oil and paste on canvas\n 2022",
-  },
-  {
-    src: require("./img/work2022/img1.jpg"),
-    alt: "Image 1",
-    caption: "Scars \n 40 x 35cm \n oil and paste on linen \n 2022",
-  },
-];
-
 export const images2023 = [
+  
   {
-    src: require("./img/work2023/img4.jpg"),
-    alt: "Image 4",
-    caption:
-      "Untitled (partition) 3,\n 200 x 120cm,\n oil and paste on linen,\n 2023",
+    src: require("./img/work/img4.jpeg"),
+    alt: "",
+    caption: "Partition \n oil and paste on linen \n 200x120cm \n 2023\n photography by Jonathan de Waart",
   },
   {
-    src: require("./img/work2023/img2.jpg"),
-    alt: "Image 2",
-    caption:
-      "Untitled (partition) 4,\n 200 x 120cm,\n oil and paste on linen,\n 2023",
-  },
-  {
-    src: require("./img/work2023/img1.jpg"),
+    src: require("./img/work/img3.jpeg"),
     alt: "Image 1",
     caption:
-      "Untitled (partition) 5,\n 200 x 120cm,\n oil and paste on linen,\n 2023",
+      "Partition #2 \n oil and paste on linen\n 200x120cm\n 2023\n photography by Jonathan de Waart",
   },
   {
-    src: require("./img/work2023/img3.jpg"),
-    alt: "Image 3",
-    caption: "Aurora, 180 x 130cm,\n oil and paste on linen,\n 2023",
+    src: require("./img/work/img2.jpeg"),
+    alt: "Image 2",
+    caption:
+      "Untitled (partition) #5\n oil and paste on linen\n 200x120cm\n 2023\n photography by Jonathan de Waart",
   },
   {
-    src: require("./img/work2023/img6.jpg"),
+    src: require("./img/work/img1.jpeg"),
+    alt: "Image 4",
+    caption:
+      "Untitled (partition) #3\n  oil and paste on linen\n  200x120cm\n  2023\n  photography by Jonathan de Waart",
+  },
+  {
+    src: require("./img/work/img5.jpeg"),
     alt: "Image 6",
     caption:
-      "Untitled (partition),\n 160 x 120cm,\n oil and paste on linen,\n 2023",
+      "Partition #3 \noil and paste on linen\n 200x120cm \n2023 \nphotography by Jonathan de Waart",
   },
   {
-    src: require("./img/work2023/img7.jpg"),
+    src: require("./img/work/img6.jpeg"),
     alt: "Image 7",
-    caption: "The Plain,\n 200 x 480cm,\n oil and paste on linen,\n 2023",
+    caption: "Partition #7\n oil and paste on linen\n 200x120cm\n 2023 \nphotography by Michèle Margot",
+  },
+  {
+    src: require("./img/work/img6.jpeg"),
+    alt: "Image 7",
+    caption: "Partition #7\n oil and paste on linen\n 200x120cm\n 2023 \nphotography by Michèle Margot",
+  },
+  {
+    src: require("./img/work/img7.jpeg"),
+    alt: "Image 7",
+    caption: "Plain\n oil and paste on linen\n 180x130cm\n 2023",
+  },
+  {
+    src: require("./img/work/img8.jpeg"),
+    alt: "Image 7",
+    caption: "Untitled (partition)\n oil and paste on linen\n 160x120cm\n 2023\n photography by Django van Ardenne",
+  },
+  {
+    src: require("./img/work/theplain1.jpeg"),
+    alt: "Image 7",
+    caption: "The Plain \noil and paste on linen\n 200x480cm \n2023",
   },
 ];
 
 export const homeImages = [
-  { src: require("./img/homepage/home1.jpg"), alt: "Home Image 1" },
-  { src: require("./img/homepage/home2.jpg"), alt: "Home Image 2" },
-  { src: require("./img/homepage/home3.JPG"), alt: "Home Image 3" },
-  { src: require("./img/homepage/home4.JPG"), alt: "Home Image 4" },
-  { src: require("./img/homepage/home5.JPG"), alt: "Home Image 5" },
+  { src: require("./img/homepage-breed/home1.jpeg"), alt: "Home Image 1" },
+  { src: require("./img/homepage-breed/home2.jpeg"), alt: "Home Image 2" },
+  { src: require("./img/homepage-breed/home3.jpeg"), alt: "Home Image 3" },
+  { src: require("./img/homepage-breed/home4.jpeg"), alt: "Home Image 4" },
+  { src: require("./img/homepage-breed/home5.jpeg"), alt: "Home Image 5" },
 ];
-export default images2022;
+export const homeImages2 = [
+  { src: require("./img/homepage/img1.jpeg"), alt: "Home Image 1" },
+  { src: require("./img/homepage/img2.jpeg"), alt: "Home Image 2" },
+  { src: require("./img/homepage/img3.jpeg"), alt: "Home Image 3" },
+  { src: require("./img/homepage/img4.jpeg"), alt: "Home Image 4" },
+  { src: require("./img/homepage/img5.jpeg"), alt: "Home Image 5" },
+  { src: require("./img/homepage/img6.jpeg"), alt: "Home Image 6" },
+
+];
+export default images2023;

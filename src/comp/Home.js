@@ -4,6 +4,7 @@ import { CarouselComp } from "./Carousel";
 import "./Home.css";
 import { Container } from "react-bootstrap";
 import { About } from "./About";
+import CarouselCompLang from "./CarouselLang";
 
 function Home(args) {
   return (
@@ -11,12 +12,17 @@ function Home(args) {
       <h1 className="Title">Caja Boogers</h1>
       <div className="grid-container">
         <div className="carousel">
-          <CarouselComp />
+          <CarouselCompLang />
         </div>
         <div className="hero">
-          <Container>
-            <About />
-          </Container>
+          <div className="hero-content">
+            <Container>
+              <About />
+            </Container>
+            <Container>
+              <CarouselComp />
+            </Container>
+          </div>
         </div>
       </div>
     </>

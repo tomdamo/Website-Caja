@@ -72,9 +72,6 @@ export function CarouselComp(args) {
 
   return (
     <>
-      <div className="title">
-        <h1></h1>
-      </div>
       <div className="carousel-container">
         <Carousel
           activeIndex={activeIndex}

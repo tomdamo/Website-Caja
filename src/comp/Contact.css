@@ -1,0 +1,23 @@
+.conatiner {
+    width:50%;  
+    margin: auto;
+
+}
+h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    width:50%;  
+    margin: auto;
+}
+.lead {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    width:50%;  
+    margin: auto;
+}
+a{
+    color: black;
+
+}
