@@ -2,12 +2,13 @@ export const images2023 = [
   
   {
     src: require("./img/work/img4.jpeg"),
-    alt: "",
+    alt: "Partition, oil and paste on linen, 200x120cm, 2023, photography by Jonathan de Waart",
     caption: "Partition \n oil and paste on linen \n 200x120cm \n 2023\n photography by Jonathan de Waart",
+    title: "Partition oil and paste on linen 200x120cm 2023 photography by Jonathan de Waart",
   },
   {
     src: require("./img/work/img3.jpeg"),
-    alt: "Image 1",
+    alt: "Partition #2 oil and paste on linen 200x120cm 2023 photography by Jonathan de Waart",
     caption:
       "Partition #2 \n oil and paste on linen\n 200x120cm\n 2023\n photography by Jonathan de Waart",
   },
@@ -35,11 +36,6 @@ export const images2023 = [
     caption: "Partition #7\n oil and paste on linen\n 200x120cm\n 2023 \nphotography by Michèle Margot",
   },
   {
-    src: require("./img/work/img6.jpeg"),
-    alt: "Image 7",
-    caption: "Partition #7\n oil and paste on linen\n 200x120cm\n 2023 \nphotography by Michèle Margot",
-  },
-  {
     src: require("./img/work/img7.jpeg"),
     alt: "Image 7",
     caption: "Plain\n oil and paste on linen\n 180x130cm\n 2023",
@@ -57,7 +53,7 @@ export const images2023 = [
 ];
 
 export const homeImages = [
-  { src: require("./img/homepage-breed/home1.jpeg"), alt: "Home Image 1" },
+  { src: require("./img/homepage-breed/home1.jpeg"), alt: "Home Image 1", title: "Home Image 1" },
   { src: require("./img/homepage-breed/home2.jpeg"), alt: "Home Image 2" },
   { src: require("./img/homepage-breed/home3.jpeg"), alt: "Home Image 3" },
   { src: require("./img/homepage-breed/home4.jpeg"), alt: "Home Image 4" },
