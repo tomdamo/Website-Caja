@@ -1,6 +1,6 @@
 import React from "react";
 import "./cv.css";
-import cajaImage from "./img/cv/caja.jpg";
+import cajaImage from "./img/cv/cvcaja.jpg";
 export function Cv() {
   return (
     <>
