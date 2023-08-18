@@ -14,6 +14,7 @@ export function Layout(props) {
         {props.children}
         {/* <Footer/> */}
       </div>
+      <Footer/>
     </>
   );
 }
