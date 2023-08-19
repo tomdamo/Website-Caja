@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Carousel,
   CarouselItem,
@@ -34,20 +34,19 @@ export function CarouselCompLang(args) {
   };
 
   const slides = items.map((item) => (
-    <CarouselItem
-      key={item.src}
-    >
-      <img
-        src={item.src}
-        alt={item.altText}
-        className="carousel-image"
-      />
-      {/* <CarouselCaption
-        captionText={item.caption}
-        captionHeader={item.caption}
-      /> */}
+    <CarouselItem key={item.src}>
+      <img src={item.src} alt={item.altText} className="carousel-image" />
     </CarouselItem>
   ));
+
+  useEffect(() => {
+    const interval = setInterval(next, 4000); // 6000ms = 6 seconds
+
+    return () => {
+      clearInterval(interval);
+    };
+      // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [activeIndex]);
 
   return (
     <div className="carousel-container">
