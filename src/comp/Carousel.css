@@ -4,6 +4,7 @@
   max-height: 50%;
   object-fit: contain;
 }
+
 .carousel {
   min-height: 10px;
 }
@@ -14,14 +15,6 @@
   max-height: 50px;
   display: grid;
   place-items: center;
-}
-.carousel-item img {
-  opacity: 0;
-  transition: opacity 0.5s;
-}
-
-.carousel-item img.loaded {
-  opacity: 1;
 }
 
 @media (max-width: 767px) {
