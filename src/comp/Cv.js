@@ -10,13 +10,43 @@ export function Cv() {
             <h4 className="display-4_cv">Exhibition</h4>
             <div className="exhibition">
               <div className="exhibition-entry">
+              <div className="cv">
+                  <div className="year">2023</div>
+                  <div className="job">
+                    <p>
+                    Galerie Weisbard 
+                      <br></br>
+                      Rotterdam, <i>solo-show</i> (upcoming)
+                    </p>
+                  </div>
+                </div>
                 <div className="cv">
                   <div className="year">2023</div>
                   <div className="job">
                     <p>
-                      HKU Exposure <i>graduation show (upcoming)</i>
+                      Maidentrip
                       <br></br>
-                      HKU Fine Art, Utrecht
+                      Collectie de Groen, Arnhem, <i>solo-show</i>
+                    </p>
+                  </div>
+                </div>
+                <div className="cv">
+                  <div className="year">2023</div>
+                  <div className="job">
+                    <p>
+                    Best of Graduates
+                      <br></br>
+                      Galerie Ron Mandos, Amsterdam,<i>groupshow</i>
+                    </p>
+                  </div>
+                </div>
+                <div className="cv">
+                  <div className="year">2023</div>
+                  <div className="job">
+                    <p>
+                      HKU Exposure 
+                      <br></br>
+                      HKU Fine Art, Utrecht<i>graduation show</i>
                     </p>
                   </div>
                 </div>
@@ -25,9 +55,8 @@ export function Cv() {
                   <div className="job">
                     <p>
                       TRAILER
-                      <i>groupshow</i>
                       <br></br>
-                      AG, Utrecht
+                      AG, Utrecht,<i> groupshow</i>
                     </p>
                   </div>
                 </div>
@@ -36,9 +65,9 @@ export function Cv() {
                   <div className="job">
                     <p>
                       A Touch of Light
-                      <i> groupshow</i>
                       <br></br>
-                      Museum Kranenburgh, Bergen
+                      Museum Kranenburgh, Bergen,
+                      <i> groupshow</i>
                     </p>
                   </div>
                 </div>
@@ -46,9 +75,9 @@ export function Cv() {
                   <div className="year">2022</div>
                   <div className="job">
                     <p>
-                      PEEK Pastoe <i>groupshow</i>
+                      PEEK Pastoe 
                       <br></br>
-                      HKU Fine Art, Utrecht
+                      HKU Fine Art, Utrecht,<i> groupshow</i>
                     </p>
                   </div>
                 </div>
@@ -58,9 +87,10 @@ export function Cv() {
                   <div className="job">
                     <p>
                       Tale of the Tape, Caja Boogers
-                      <i> solo-show</i>
                       <br></br>
-                      Westersingel 101, Rotterdam
+                      Westersingel 101, Rotterdam,
+                      <i> solo-show</i>
+
                     </p>
                   </div>
                 </div>
@@ -70,8 +100,9 @@ export function Cv() {
                   </div>
                   <div className="job">
                     <p>
-                      The NEXT: KapSalon <i>groupshow</i> <br></br>Herman van
-                      Veen Arts Center, Soest
+                      The NEXT: KapSalon  <br></br>Herman van
+                      Veen Arts Center, Soest,
+                      <i> groupshow</i>
                     </p>
                   </div>
                 </div>
@@ -81,8 +112,9 @@ export function Cv() {
                   </div>
                   <div className="job">
                     <p>
-                      CURRENT CURRENT CURRENT <i>groupshow</i> <br></br>OMSTAND,
-                      Arnhem
+                      CURRENT CURRENT CURRENT  <br></br>OMSTAND,
+                      Arnhem,
+                      <i> groupshow</i>
                     </p>
                   </div>
                 </div>
@@ -92,7 +124,8 @@ export function Cv() {
                   </div>
                   <div className="job">
                     <p>
-                      Virtual Empathy <i>groupshow</i> <br></br>AG, Utrecht
+                      Virtual Empathy <br></br>AG, Utrecht, 
+                      <i> groupshow</i> 
                     </p>
                   </div>
                 </div>
@@ -114,17 +147,52 @@ export function Cv() {
                 </div>
               </div>
 
-              <h4 className="display-4_end">Extra</h4>
-              <div className="cv_end">
-                Bookcover for novel
-                <i> Wij zijn van Diamant</i>
-                <br></br>
-                by Alex Boogers,
-                <br></br>
-                Hollands Diep, Overamstel uitgevers
+              <h4 className="display-4_mid">Residencies</h4>
+              <div className="education">
+                <div className="cv">
+                  <div className="job"> <p>
+                  November 2023- August 2024 
+                  <br></br>
+                  Lakeside award resident in Depot Boijmans van Beuningen,<br></br> Rotterdam
+                  </p>
+                  </div>
+
+                </div>
               </div>
+              <h4 className="display-4_mid">Publications</h4>
+              <div className="education">
+                <div className="cv">
+                  <div className="cv_publications"> <p>
+                  ‘De vliegende start van drie jonge kunstenaars’
+                  <br></br>
+                  Anna van Leeuwen
+                  <br></br>
+                  <a href="https://www.volkskrant.nl/cultuur-media/net-afgestudeerd-en-nu-al-een-tentoonstelling- de-vliegende-start-van-drie-jonge-kunstenaars~b8201ff2e/">
+                  de Volkskrant 10 juli 2023
+                  </a>
+                  <br></br>
+                  <br></br>
+                  Metropolis M: Inkomen & Eindexamens 2023 
+                  <br></br>
+                  Eli Witteman
+                  </p>
+                  </div>
+
+                </div>
+              </div>
+
+             
             </div>
+            <h4 className="display-4_end">Extra</h4>
+              <div className="cv_end">
+              <div className="cv_content">
+                Works have been avquired by collections such as Museum Voorlinde, <br></br>Verder Collectie, 
+                Lakeside collection and ING collectie.
+
+              </div>
+              </div>
           </div>
+          
           <div className="cv-image">
             <img
               className="cajaImage"

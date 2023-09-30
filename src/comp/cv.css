@@ -44,7 +44,9 @@
   text-align: left;
   margin-bottom: 100px;
 }
-
+.cv_content {
+  margin-left: 140px;
+}
 .display-4_cv {
   margin-right: 325px;
   margin-top: 20px;
@@ -54,7 +56,7 @@
   margin-top: 20px;
 }
 .display-4_end {
-  margin-right: 380px;
+  margin-right: 400px;
   margin-top: 20px;
 }
 
@@ -67,15 +69,19 @@
   max-width: 400px;
   height: auto;
 }
+
+.cv_publications {
+  margin-right: 90px;
+}
 @media (max-width: 767px) {
   .display-4_cv {
-    margin-right: 275px;
+    margin-right: 290px;
   }
   .display-4_mid {
     margin-right: 275px;
   }
   .display-4_end {
-    margin-right: 325px;
+    margin-right: 345px;
   }
   .cv_mid {
     align-items: flex-start;
@@ -92,10 +98,8 @@
     flex-direction: column;
     align-items: center;
   }
-  .cv-content {
-    flex-direction: column;
-    align-items: center;
-    margin-top: 0;
+  .cv_content {
+    margin-left: 10px;
   }
 
   .cajaImage {
@@ -105,5 +109,8 @@
   }
   .cv-container {
     overflow-x: hidden;
+  }
+  .leadAbout {
+    margin-top: 100px;
   }
 }

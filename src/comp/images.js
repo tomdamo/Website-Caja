@@ -58,6 +58,9 @@ export const homeImages = [
   { src: require("./img/homepage-breed/home3-min.jpeg"), alt: "Home Image 3" },
   { src: require("./img/homepage-breed/home4-min.jpeg"), alt: "Home Image 4" },
   { src: require("./img/homepage-breed/home5-min.jpeg"), alt: "Home Image 5" },
+  { src: require("./img/homepage-breed/home6-min.jpeg"), alt: "Home Image 6" },
+  { src: require("./img/homepage-breed/home7-min.jpeg"), alt: "Home Image 7" },
+  { src: require("./img/homepage-breed/home8-min.jpeg"), alt: "Home Image 8" },
 ];
 export const homeImages2 = [
   { src: require("./img/homepage/img1-min.jpeg"), alt: "Home Image 1" },
