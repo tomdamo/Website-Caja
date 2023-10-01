@@ -186,7 +186,7 @@ export function Cv() {
             <h4 className="display-4_end">Extra</h4>
               <div className="cv_end">
               <div className="cv_content">
-                Works have been avquired by collections such as Museum Voorlinde, <br></br>Verder Collectie, 
+                Works have been acquired by collections such as Museum Voorlinden, <br></br>Verder Collectie, 
                 Lakeside collection and ING collectie.
 
               </div>
