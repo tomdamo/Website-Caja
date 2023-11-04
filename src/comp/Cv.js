@@ -151,9 +151,9 @@ export function Cv() {
               <div className="education">
                 <div className="cv">
                   <div className="job"> <p>
-                  November 2023- August 2024 
+                  Lakeside Collection Award 2023 
                   <br></br>
-                  Lakeside award resident in Depot Boijmans van Beuningen,<br></br> Rotterdam
+                  Artist-in-residence in Depot Boijmans Van Beuningen<br></br> Rotterdam, The Netherlands
                   </p>
                   </div>
 
@@ -186,8 +186,7 @@ export function Cv() {
             <h4 className="display-4_end">Extra</h4>
               <div className="cv_end">
               <div className="cv_content">
-                Works have been acquired by collections such as Museum Voorlinden, <br></br>Verder Collectie, 
-                Lakeside collection and ING collectie.
+                Works have been acquired by collections such as:  <br></br><br></br>Museum Voorlinden<br></br> Verder Collectie<br></br> Lakeside Collection<br></br> ING Collection<br></br> Akzo Nobel Art Foundation.
 
               </div>
               </div>

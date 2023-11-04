@@ -45,7 +45,7 @@
   margin-bottom: 100px;
 }
 .cv_content {
-  margin-left: 140px;
+  margin-left: 20px;
 }
 .display-4_cv {
   margin-right: 325px;
@@ -75,22 +75,22 @@
 }
 @media (max-width: 767px) {
   .display-4_cv {
-    margin-right: 290px;
+    margin-right: 270px;
   }
   .display-4_mid {
-    margin-right: 275px;
+    margin-right: 245px;
   }
   .display-4_end {
-    margin-right: 345px;
+    margin-right: 325px;
   }
   .cv_mid {
     align-items: flex-start;
-    margin-left: 10px;
+    margin-left: 20px;
     text-align: left;
   }
   .cv_end {
     align-items: flex-start;
-    margin-right: 55px;
+    margin-right: 35px;
     text-align: left;
     margin-bottom: 1px;
   }
