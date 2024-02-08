@@ -4,10 +4,12 @@ import "./ImagesGallery.css";
 function ImageGallery({ images }) {
   const [isFullScreen, setIsFullScreen] = useState(false);
   const [currentImage, setCurrentImage] = useState("");
+  const [showText, setShowText] = useState(false);
 
   const handleClick = (image) => {
     setIsFullScreen(true);
     setCurrentImage(image);
+    setShowText(true);
   };
 
   return (
@@ -20,16 +22,19 @@ function ImageGallery({ images }) {
               alt={image.alt}
               onClick={() => handleClick(image.src)}
             />
-            <figcaption>{image.caption}</figcaption>
           </div>
         ))}
       </div>
       {isFullScreen && (
         <div
           className="fullscreen-image"
-          onClick={() => setIsFullScreen(false)}
+          onClick={() => {
+            setIsFullScreen(false)
+            setShowText(false)
+          }}
         >
           <img src={currentImage} alt={currentImage} />
+          {showText && <figcaption>{images.find(img => img.src === currentImage)?.caption}</figcaption>}
         </div>
       )}
     </div>

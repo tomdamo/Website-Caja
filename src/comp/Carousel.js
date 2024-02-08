@@ -2,8 +2,6 @@ import React, { useState, useEffect } from "react";
 import {
   Carousel,
   CarouselItem,
-  CarouselControl,
-  CarouselIndicators,
 } from "reactstrap";
 
 import { homeImages } from "./images";
@@ -56,22 +54,7 @@ export function CarouselComp(args) {
         previous={previous}
         {...args}
       >
-        <CarouselIndicators
-          items={items}
-          activeIndex={activeIndex}
-          onClickHandler={goToIndex}
-        />
         {slides}
-        <CarouselControl
-          direction="prev"
-          directionText="Previous"
-          onClickHandler={previous}
-        />
-        <CarouselControl
-          direction="next"
-          directionText="Next"
-          onClickHandler={next}
-        />
       </Carousel>
     </div>
   );

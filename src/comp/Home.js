@@ -9,7 +9,7 @@ import CarouselCompLang from "./CarouselLang";
 function Home(args) {
   return (
     <>
-      <h1 className="Title">Caja Boogers</h1>
+      <div className="Title"><img src="cajaCAJA2.jpeg" width="130px" height="100%"/></div>
       <div className="grid-container">
         <div className="carousel">
           <CarouselCompLang />
@@ -17,7 +17,6 @@ function Home(args) {
         <div className="hero">
           <div className="hero-content">
             <Container>
-              <About />
             </Container>
             <Container>
               <CarouselComp />
