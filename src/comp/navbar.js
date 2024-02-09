@@ -14,7 +14,7 @@ function Navi() {
   return (
     <Navbar bg="light" expand="lg" sticky="top">
       <Container>
-        <Navbar.Brand href="/">{isHomePage ? "" : "caja"}</Navbar.Brand>
+        <Navbar.Brand href="/">{isHomePage ? "" : <img src="cajaCAJA2-bg.png" width="40px" height="30px" />}</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

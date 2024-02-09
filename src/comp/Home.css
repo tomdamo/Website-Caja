@@ -12,6 +12,11 @@
   grid-row: 2 / 3;
   margin-top: -20px;
 }
+.container-contact {
+  margin-top: 75px;
+  margin-bottom: 550px;
+
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -48,6 +53,10 @@
 .display-4 {
   margin-top: 10px;
   font-size: 1.5rem; /* Adjust the title font size */
+}
+.display-4-contact {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
 }
 
 .lead {
