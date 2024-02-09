@@ -1,3 +1,16 @@
 .instagram-icon {
   color: grey;
 }
+/* Default styles for larger screens */
+.navbar {
+  position: relative;
+}
+
+/* Sticky styles for mobile devices */
+@media (max-width: 767px) {
+  .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+}

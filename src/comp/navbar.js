@@ -12,7 +12,7 @@ function Navi() {
   const isHomePage = location.pathname === "/";
 
   return (
-    <Navbar bg="light" expand="lg" sticky="top">
+    <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand href="/">{isHomePage ? "" : <img src="cajaCAJA2-bg.png" width="40px" height="30px" />}</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
