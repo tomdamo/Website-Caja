@@ -53,22 +53,22 @@ export const images2023 = [
 ];
 
 export const homeImages = [
-  { src: require("./img/homepage-breed/img1.jpeg"), alt: "Home Image 1", title: "Home Image 1" },
-  { src: require("./img/homepage-breed/img2.jpeg"), alt: "Home Image 2" },
-  { src: require("./img/homepage-breed/img3.jpeg"), alt: "Home Image 3" },
-  { src: require("./img/homepage-breed/img4.JPG"), alt: "Home Image 4" },
-  { src: require("./img/homepage-breed/img5.jpeg"), alt: "Home Image 5" },
-  { src: require("./img/homepage-breed/img6.jpeg"), alt: "Home Image 6" },
-  { src: require("./img/homepage-breed/img7.jpeg"), alt: "Home Image 7" },
+  { src: ("https://s3.eu-central-1.wasabisys.com/caja/homepage/breed/img1b.jpeg"), alt: "Home Image 1", title: "Home Image 1" },
+  { src: ("https://s3.eu-central-1.wasabisys.com/caja/homepage/breed/img2b.jpeg"), alt: "Home Image 2" },
+  { src: ("https://s3.eu-central-1.wasabisys.com/caja/homepage/breed/img3b.jpeg"), alt: "Home Image 3" },
+  { src: ("https://s3.eu-central-1.wasabisys.com/caja/homepage/breed/img4b.JPG"), alt: "Home Image 4" },
+  { src: ("https://s3.eu-central-1.wasabisys.com/caja/homepage/breed/img5b.jpeg"), alt: "Home Image 5" },
+  { src: ("https://s3.eu-central-1.wasabisys.com/caja/homepage/breed/img6b.jpeg"), alt: "Home Image 6" },
+  { src: ("https://s3.eu-central-1.wasabisys.com/caja/homepage/breed/img7b.jpeg"), alt: "Home Image 7" },
 ];
 export const homeImages2 = [
-  { src: require("./img/homepage/img1.jpeg"), alt: "Home Image 1" },
-  { src: require("./img/homepage/img2.jpeg"), alt: "Home Image 2" },
-  { src: require("./img/homepage/img3.jpeg"), alt: "Home Image 3" },
-  { src: require("./img/homepage/img4.jpeg"), alt: "Home Image 4" },
-  { src: require("./img/homepage/img5.jpeg"), alt: "Home Image 5" },
-  { src: require("./img/homepage/img6.jpeg"), alt: "Home Image 6" },
-  { src: require("./img/homepage/img7.jpeg"), alt: "Home Image 7" },
+  { src: ("https://s3.eu-central-1.wasabisys.com/caja/homepage/recht/img1.jpeg"), alt: "Home Image 1" },
+  { src: ("https://s3.eu-central-1.wasabisys.com/caja/homepage/recht/img2.jpeg"), alt: "Home Image 2" },
+  { src: ("https://s3.eu-central-1.wasabisys.com/caja/homepage/recht/img3.jpeg"), alt: "Home Image 3" },
+  { src: ("https://s3.eu-central-1.wasabisys.com/caja/homepage/recht/img4.jpeg"), alt: "Home Image 4" },
+  { src: ("https://s3.eu-central-1.wasabisys.com/caja/homepage/recht/img5.jpeg"), alt: "Home Image 5" },
+  { src: ("https://s3.eu-central-1.wasabisys.com/caja/homepage/recht/img6.jpeg"), alt: "Home Image 6" },
+  { src: ("https://s3.eu-central-1.wasabisys.com/caja/homepage/recht/img7.jpeg"), alt: "Home Image 7" },
 
 
 ];
