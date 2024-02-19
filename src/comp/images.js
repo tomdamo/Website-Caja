@@ -53,22 +53,23 @@ export const images2023 = [
 ];
 
 export const homeImages = [
-  { src: require("./img/homepage-breed/home1-min.jpeg"), alt: "Home Image 1", title: "Home Image 1" },
-  { src: require("./img/homepage-breed/home2-min.jpeg"), alt: "Home Image 2" },
-  { src: require("./img/homepage-breed/home3-min.jpeg"), alt: "Home Image 3" },
-  { src: require("./img/homepage-breed/home4-min.jpeg"), alt: "Home Image 4" },
-  { src: require("./img/homepage-breed/home5-min.jpeg"), alt: "Home Image 5" },
-  { src: require("./img/homepage-breed/home6-min.jpeg"), alt: "Home Image 6" },
-  { src: require("./img/homepage-breed/home7-min.jpeg"), alt: "Home Image 7" },
-  { src: require("./img/homepage-breed/home8-min.jpeg"), alt: "Home Image 8" },
+  { src: require("./img/homepage-breed/img1.jpeg"), alt: "Home Image 1", title: "Home Image 1" },
+  { src: require("./img/homepage-breed/img2.jpeg"), alt: "Home Image 2" },
+  { src: require("./img/homepage-breed/img3.jpeg"), alt: "Home Image 3" },
+  { src: require("./img/homepage-breed/img4.JPG"), alt: "Home Image 4" },
+  { src: require("./img/homepage-breed/img5.jpeg"), alt: "Home Image 5" },
+  { src: require("./img/homepage-breed/img6.jpeg"), alt: "Home Image 6" },
+  { src: require("./img/homepage-breed/img7.jpeg"), alt: "Home Image 7" },
 ];
 export const homeImages2 = [
-  { src: require("./img/homepage/img1-min.jpeg"), alt: "Home Image 1" },
-  { src: require("./img/homepage/img2-min.jpeg"), alt: "Home Image 2" },
-  { src: require("./img/homepage/img3-min.jpeg"), alt: "Home Image 3" },
-  { src: require("./img/homepage/img4-min.jpeg"), alt: "Home Image 4" },
-  { src: require("./img/homepage/img5-min.jpeg"), alt: "Home Image 5" },
-  { src: require("./img/homepage/img6-min.jpeg"), alt: "Home Image 6" },
+  { src: require("./img/homepage/img1.jpeg"), alt: "Home Image 1" },
+  { src: require("./img/homepage/img2.jpeg"), alt: "Home Image 2" },
+  { src: require("./img/homepage/img3.jpeg"), alt: "Home Image 3" },
+  { src: require("./img/homepage/img4.jpeg"), alt: "Home Image 4" },
+  { src: require("./img/homepage/img5.jpeg"), alt: "Home Image 5" },
+  { src: require("./img/homepage/img6.jpeg"), alt: "Home Image 6" },
+  { src: require("./img/homepage/img7.jpeg"), alt: "Home Image 7" },
+
 
 ];
 export default images2023;
