@@ -9,7 +9,7 @@ import CarouselCompLang from "./CarouselLang";
 function Home(args) {
   return (
     <>
-      <div className="Title"><img src="cajaCAJA2.jpeg" width="130px" height="100%"/></div>
+      <div className="Title"><img src="cajaCAJA2.png" width="130px" height="100%"/></div>
       <div className="grid-container">
         <div className="carousel">
           <CarouselCompLang />
