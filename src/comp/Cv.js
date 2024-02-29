@@ -11,12 +11,60 @@ export function Cv() {
             <div className="exhibition">
               <div className="exhibition-entry">
               <div className="cv">
+                  <div className="year">2024</div>
+                  <div className="job">
+                    <p>
+                    Daily encounters and how to catch them
+                      <br></br>
+                      Museum Helmond, Helmond, 
+                      <i>groupshow</i>
+
+                    </p>
+                  </div>
+                </div>
+                <div className="cv">
+                  <div className="year">2024</div>
+                  <div className="job">
+                    <p>
+                    ECHTER
+                      <br></br>
+                      Moving Gallery, Utrecht, 
+                      <i>groupshow</i>
+
+                    </p>
+                  </div>
+                </div>
+              <div className="cv">
+                  <div className="year">2024</div>
+                  <div className="job">
+                    <p>
+                    Art Rotterdam
+                      <br></br>
+                      Best of Graduates Legacy, Galerie Ron Mandos
+                      <i>groupshow</i>
+
+                    </p>
+                  </div>
+                </div>
+                <div className="cv">
+                  <div className="year">2024</div>
+                  <div className="job">
+                    <p>
+                    Art Rotterdam
+                      <br></br>
+                      Represented by Galerie Gerhard Hofland, Rotterdam, 
+                      <i>groupshow</i>
+
+                    </p>
+                  </div>
+                </div>
+              <div className="cv">
                   <div className="year">2023</div>
                   <div className="job">
                     <p>
-                    Galerie Weisbard 
+                    Closing Distance
                       <br></br>
-                      Rotterdam, <i>solo-show</i> (upcoming)
+                      Galerie Weisbard, Rotterdam, <i>solo-show</i>
                     </p>
                   </div>
                 </div>
@@ -54,6 +102,16 @@ export function Cv() {
                   <div className="year">2023</div>
                   <div className="job">
                     <p>
+                    PARTITIONS
+                      <br></br>
+                      Galerie Gerhard Hofland, Amsterdam, <i> duoshow</i>
+                    </p>
+                  </div>
+                </div>
+                <div className="cv">
+                  <div className="year">2023</div>
+                  <div className="job">
+                    <p>
                       TRAILER
                       <br></br>
                       AG, Utrecht,<i> groupshow</i>
@@ -82,18 +140,7 @@ export function Cv() {
                   </div>
                 </div>
                 {/* hier */}
-                <div className="cv">
-                  <div className="year">2022</div>
-                  <div className="job">
-                    <p>
-                      Tale of the Tape, Caja Boogers
-                      <br></br>
-                      Westersingel 101, Rotterdam,
-                      <i> solo-show</i>
-
-                    </p>
-                  </div>
-                </div>
+                
                 <div className="cv">
                   <div className="year">
                     <p>2022</p>
@@ -175,6 +222,14 @@ export function Cv() {
                   Metropolis M: Inkomen & Eindexamens 2023 
                   <br></br>
                   Eli Witteman
+                  <br></br>
+                  <br></br>
+                  <a href="https://npo.nl/start/serie/nu-te-zien/seizoen-7/nu-te-zien_28/afspelen">Nu te Zien 'A touch of light' </a> <br></br>
+                  AVROTROS <br></br>
+                  18 juni 2023 <br></br>
+                  <br></br><br></br>
+                  <a href="https://museumtv.nl/tentoonstelling/kunstbeloften-caja-boogers/">MuseumTV: Kunstbeloften: Caja Boogers</a> <br></br>
+                  30 november 2023 <br></br>
                   </p>
                   </div>
 
@@ -186,7 +241,16 @@ export function Cv() {
             <h4 className="display-4_end">Extra</h4>
               <div className="cv_end">
               <div className="cv_content">
-                Works have been acquired by collections such as:  <br></br><br></br>Museum Voorlinden<br></br> Verder Collectie<br></br> Lakeside Collection<br></br> ING Collection<br></br> Akzo Nobel Art Foundation.
+                Works have been acquired by collections such as:  
+                <br></br><br></br>
+                Museum Voorlinden<br></br> 
+                Akzo Nobel Art Foundation. <br></br>
+                Lakeside Collection<br></br> 
+                Ministerie van Binnenlandse Zaken <br></br>
+                ING Collection<br></br> 
+                Verder Collectie<br></br> 
+                Collectie de Groen<br></br>
+                
 
               </div>
               </div>

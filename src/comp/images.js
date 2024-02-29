@@ -1,54 +1,68 @@
 export const images2023 = [
   
   {
-    src: require("./img/work/img4-min.jpeg"),
-    alt: "Partition, oil and paste on linen, 200x120cm, 2023, photography by Jonathan de Waart",
-    caption: "Partition \n oil and paste on linen \n 200x120cm \n 2023\n photography by Jonathan de Waart",
-    title: "Partition oil and paste on linen 200x120cm 2023 photography by Jonathan de Waart",
+    src: require("./img/work24/img1.jpeg"),
+    alt: "Retelling 50 paintings 113x170cm (total) oil and paste on linen 2024",
+    caption: "Retelling \n 50 paintings  \n oil and paste on linen \n 113x170cm (total) \n 2024",
   },
   {
-    src: require("./img/work/img3-min.jpeg"),
-    alt: "Partition #2 oil and paste on linen 200x120cm 2023 photography by Jonathan de Waart",
+    src: require("./img/work24/img2.jpeg"),
+    alt: "Partition 200x120cm oil and paste on linen 2023",
     caption:
-      "Partition #2 \n oil and paste on linen\n 200x120cm\n 2023\n photography by Jonathan de Waart",
+      "Partition \n  oil and paste on linen\n 200x120cm\n 2023\n",
   },
   {
-    src: require("./img/work/img2-min.jpeg"),
+    src: require("./img/work24/img3.jpeg"),
     alt: "Image 2",
     caption:
-      "Untitled (partition) #5\n oil and paste on linen\n 200x120cm\n 2023\n photography by Jonathan de Waart",
+      "Plain #10 \n  oil and paste om linen\n 180x130cm\n 2023",
   },
   {
-    src: require("./img/work/img1-min.jpeg"),
+    src: require("./img/work24/img4.jpeg"),
     alt: "Image 4",
     caption:
-      "Untitled (partition) #3\n  oil and paste on linen\n  200x120cm\n  2023\n  photography by Jonathan de Waart",
+      "Partition\n  oil and paste on linen\n  200x120cm\n  2023",
   },
   {
-    src: require("./img/work/img5-min.jpeg"),
+    src: require("./img/work24/img5.jpeg"),
     alt: "Image 6",
     caption:
-      "Partition #3 \noil and paste on linen\n 200x120cm \n2023 \nphotography by Jonathan de Waart",
+      "Partition #2 \noil and paste on linen\n 200x120cm \n2023",
   },
   {
-    src: require("./img/work/img6-min.jpeg"),
+    src: require("./img/work24/img6.jpeg"),
     alt: "Image 7",
-    caption: "Partition #7\n oil and paste on linen\n 200x120cm\n 2023 \nphotography by Michèle Margot",
+    caption: "Untitled (partition) #5 \n oil and paste on linen\n 200x120cm\n 2023",
   },
   {
-    src: require("./img/work/img7-min.jpeg"),
+    src: require("./img/work24/img7.jpeg"),
     alt: "Image 7",
-    caption: "Plain\n oil and paste on linen\n 180x130cm\n 2023",
+    caption: "Untitled (partition) #3\n oil and paste on linen\n 200x120cm\n 2023",
   },
   {
-    src: require("./img/work/img8-min.jpeg"),
+    src: require("./img/work24/img8.jpeg"),
     alt: "Image 7",
-    caption: "Untitled (partition)\n oil and paste on linen\n 160x120cm\n 2023\n photography by Django van Ardenne",
+    caption: "Partition #3 \n oil and paste on linen\n 200x120cm\n 2023\n photography by Django van Ardenne",
   },
   {
-    src: require("./img/work/theplain1-min.jpeg"),
+    src: require("./img/work24/img9.jpeg"),
+    alt: "Image 7",
+    caption: "Partition #7 \noil and paste on linen\n 200x120cm \n2023",
+  },
+  {
+    src: require("./img/work24/img10.jpeg"),
     alt: "Image 7",
     caption: "The Plain \noil and paste on linen\n 200x480cm \n2023",
+  },
+  {
+    src: require("./img/work24/img11.jpeg"),
+    alt: "Image 7",
+    caption: "Plain \noil and paste on linen\n 180x130cm \n2023",
+  },
+  {
+    src: require("./img/work24/img12.jpeg"),
+    alt: "Image 7",
+    caption: "Untitled (partition) \noil and paste on linen\n 160x120cm \n2023",
   },
 ];
 
