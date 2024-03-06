@@ -10,11 +10,11 @@ import "./nav.css";
 function Navi() {
   const location = useLocation();
   const isHomePage = location.pathname === "/";
-
+  const image = "https://imagedelivery.net/wnsKQets6eRCGizoqWHVjg/dee0daee-0473-4f48-1435-94a7efbd9000/public"
   return (
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="/">{isHomePage ? "" : <img src="cajaCAJA2-bg.png" width="40px" height="30px" />}</Navbar.Brand>
+        <Navbar.Brand href="/">{isHomePage ? "" : <img src={image} width="40px" height="30px" alt="caja"/>}</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">

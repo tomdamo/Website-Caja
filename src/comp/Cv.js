@@ -1,7 +1,8 @@
 import React from "react";
 import "./cv.css";
-import cajaImage from "./img/cv/cvcaja.jpg";
+
 export function Cv() {
+  const cajaImage = "https://imagedelivery.net/wnsKQets6eRCGizoqWHVjg/7441e68e-4ff4-480a-6162-7e5cceb67900/public"
   return (
     <>
       <div className="cv-container">
