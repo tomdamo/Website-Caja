@@ -40,7 +40,7 @@ export const images2023 = [
     caption: "Untitled (partition) #3\n oil and paste on linen\n 200x120cm\n 2023",
   },
   {
-    src: ("https://imagedelivery.net/wnsKQets6eRCGizoqWHVjg/c373997e-e88e-4e32-3e47-b69ce44e6700/public"),
+    src: ("https://imagedelivery.net/wnsKQets6eRCGizoqWHVjg/df45fb2d-676b-4f90-d7fc-bf2f2d91f000/public"),
     alt: "Image 8",
     caption: "Partition #3 \n oil and paste on linen\n 200x120cm\n 2023\n photography by Django van Ardenne",
   },
