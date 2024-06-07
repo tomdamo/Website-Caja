@@ -40,7 +40,6 @@ figcaption {
   font-size: 0.8rem;
   text-align: left;
   color: white;
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
 }
 
 /* New styles for larger screens */
@@ -93,6 +92,5 @@ figcaption {
     font-size: 0.8rem;
     text-align: left;
     color: white;
-    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
   }
 }
